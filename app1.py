@@ -28,6 +28,7 @@ a = st.number_input('수를 입력하세요', value= a)
 if st.button('양수일까 음수일까?'):
        if a > 0:
               st.write('양수입니다')
-       elif a < 0:#              st.write('음수입니다')
+       elif a < 0:
+              st.write('음수입니다')
        else:
               st.write('그건 잘 모르겠고')
