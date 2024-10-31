@@ -22,7 +22,7 @@ with col2:
      st.image('수학 이미지.PNG')  # 이미지 파일 불러오기
 
 # 사용자의 입력을 받아서 a에 저장하기(초기값은 0)
-a = st.number_input('수를 입력하세요', value= a)  
+a = st.number_input(수를 입력하세요, value= a)  
 
 # 버튼 생성 및 동작
 if st.button('양수일까 음수일까?'):
